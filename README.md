@@ -5,14 +5,14 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot Mobile](#screenshot Mobile)
-- [Screenshot Desktop](#screenshot Desktop)
-  - [Links](#links)
+- [Screenshot Mobile](#screenshotMobile)
+- [Screenshot Desktop](#screenshotDesktop)
+- [Links](#links)
 - [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+- [Built with](#built-with)
+- [What I learned](#what-i-learned)
+- [Continued development](#continued-development)
+- [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -25,7 +25,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ![375 pixels](./375px.png)
 
-###Screemsjpt Desktop
+###Screenshot Desktop
 ![1440px.png](./1440px.png)
  
 
