@@ -5,7 +5,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
+  - [Screenshot Mobile](#screenshot Mobile)
+- [Screenshot Desktop](#screenshot Desktop)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -20,9 +21,11 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ## Overview
 	Webpage for an Omellete, it contains a brief description, the time it takes to prepare and cook. Ingredients, Instructions and nutrition table. 
 
-### Screenshot
+### Screenshot Mobile
 
 ![375 pixels](./375px.png)
+
+###Screemsjpt Desktop
 ![1440px.png](./1440px.png)
  
 
