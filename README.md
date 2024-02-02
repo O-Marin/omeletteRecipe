@@ -21,15 +21,15 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ## Overview
 	Webpage for an Omellete, it contains a brief description, the time it takes to prepare and cook. Ingredients, Instructions and nutrition table. 
 
-###ScreenshotMobile
+### ScreenshotMobile
 
 ![375 pixels](./375px.png)
 
-##ScreenshotDesktop
+## ScreenshotDesktop
 ![1440px.png](./1440px.png)
  
 
-###Links
+### Links
 
 - Solution URL: [O-marinOmeletteRecipe](https://github.com/O-Marin/omeletteRecipe)
 - Live Site URL: [OmeletteRecipe](https://o-marin.github.io/omeletteRecipe/)
