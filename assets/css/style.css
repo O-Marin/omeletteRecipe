@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+}
+
+/*font-family: 'Outfit', sans-serif;
+    font-family: 'Young Serif', serif;*/
+body {
+    font-family: var(--outfit);
+    color: var(--dark-charcoal);
+    font-size:16px;
+    font-weight: var(--outfit-semi-bold);
+    line-height: 1.6;
+    
+
+}
+
+
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --rose-white: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --light-grey: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsla(15, 4%, 18%, 0.7);
+    --nutmeg: hsl(14, 45%, 36%, 0.8);
+    --dark-rasperry: hsla(332, 51%, 32%, 0.8);
+    --outift-bold: 700;
+    --outfit-thin: 100;
+    --outift-xtra-light: 200;
+    --outfit-light: 300;
+    --outfit-regular: 400;
+    --outfit-medium: 500;
+    --outfit-semi-bold: 600;
+    --outfit-xtra-bold: 800;
+    --outfit-black: 900;
+
+    --outfit: 'Outfit', sans-serif;
+    --young-serif: 'Young Serif', serif;
+}
+
+
+
+/* styles shared between sizes*/
+
+    
+
+
+
+/* ----- title, subtitles  ----- */
+    h1 {
+        font-family: var(--young-serif);
+        margin-bottom:0.5em;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 32px;
+        color: rgba(0, 0, 0, 0.753);
+    }
+
+    h3 {
+        color: var(--dark-rasperry);
+        font-family: var(--young-serif);
+    }
+
+    h2{
+        color:var(--nutmeg);
+        margin-bottom: 1em;
+        font-family: var(--young-serif);
+    }
+
+    
+/* title, subtitles*/
+
+/*----- List and list-styles -----*/
+li{
+    margin-bottom: 1em;
+}
+
+
+
+ol li::marker,ul li::marker{
+    color: var(--nutmeg);
+}
+
+ol, ul{
+    padding:0;
+}
+/* List and list-styles*/
+
+
+
+
+
+/* -----Preparation time section -----*/
+
+.time li::marker{
+    color:var(--dark-rasperry)
+}
+
+.time ul{
+    padding: 0 1em;
+
+}
+
+.time ul li span, .instructions span{
+    font-weight: var(--outfit-black);
+   
+}
+
+.time ul li p{
+    margin-left: 1.5em;
+}
+
+/* Preparation time* section/
+
+
+/* -----Ingredient Section-----*/
+
+.ingredients ul li p{
+    margin-left: 1.5em;
+    
+}
+.ingredients, .instructions{
+    padding-left: 1.5em;
+}
+/* Ingredient Section*/
+
+/* -----  Instructions section----- */
+.instructions ol li p{
+    margin-left: 1.5em;
+}
+
+.ingredients, .instructions{
+    border-bottom: 2px solid rgba(85, 81, 81, 0.267);
+    padding-bottom: 1em;
+    margin-bottom:1em;
+}
+
+table{
+    margin-top: 1.5em;
+    border-collapse:collapse ;
+    
+
+}
+tr:nth-child(1){border-bottom:1px solid var(--dark-charcoal);}
+tr:nth-child(2){border-bottom:1px solid var(--dark-charcoal);}
+tr:nth-child(3){border-bottom:1px solid var(--dark-charcoal);}
+th,td {padding: 1em;}
+
+table td{
+    color: var(--nutmeg);
+}
+
+
+/* Instructions Section*/
+
+/* Mobile Style*/
+@media(max-width:414px) {
+
+    main{
+        margin: 2em;
+    }
+
+    /*Banner*/
+    .banner-mobile{
+        width: 100%;
+        height: auto;
+        margin-bottom: 2em;
+        
+    }
+
+    .banner-wide{
+        display:none
+    }
+
+    .banner-img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        display:block
+    }
+
+    /* time section */
+    .time {
+        background-color: var(--rose-white);
+        margin: 2.5rem 0;
+        padding: 1.5rem;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        
+    }
+
+    .nutrition table{
+        width: 100%;
+
+    }
+    
+
+}
+
+@media(min-width:415px) {
+
+    body {
+        
+        font-size:16px;
+        font-weight: var(--outfit-semi-bold);
+        line-height: 1.6;
+        margin:1.5em;
+        background-color:var(--eggshell);
+        padding:  2em 13em;
+    }
+
+    main{
+        background-color: var(--white);
+        margin: 5em;
+        padding: 3em;
+        border-radius: 15px;
+    }
+
+    h1{
+        font-size: 2.5em;
+    }
+    
+    header{
+        margin:0;
+    }
+
+    .banner-mobile {
+        display:none
+        
+    }
+
+    .instructions,.nutrition,.ingredients,.description{
+        margin: 2.5em;
+    }
+
+    .banner-img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        border-radius: 25px;
+    }
+
+    /* time section */
+    .time {
+        background-color: var(--rose-white);
+        margin: 2.5rem 2.5rem;
+        padding: 1.5rem;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        
+    }
+
+    .nutrition table{
+        width: 100%;
+
+    }
+    
+}
+
+/* attribution style */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
