@@ -25,11 +25,11 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ![375 pixels](./375px.png)
 
-###ScreenshotDesktop
+##ScreenshotDesktop
 ![1440px.png](./1440px.png)
  
 
-### Links
+###Links
 
 - Solution URL: [O-marinOmeletteRecipe](https://github.com/O-Marin/omeletteRecipe)
 - Live Site URL: [OmeletteRecipe](https://o-marin.github.io/omeletteRecipe/)
